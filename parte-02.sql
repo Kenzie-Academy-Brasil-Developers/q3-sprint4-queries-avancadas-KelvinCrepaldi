@@ -1,5 +1,3 @@
-
-  
 INSERT INTO endereços
     (rua, país, cidade)
 VALUES
@@ -17,11 +15,7 @@ VALUES
 INSERT INTO redes_sociais
     (nome)
 VALUES
-    ('Youtube'),
-    ('Twitter'),
-    ('Instagram'),
-    ('Facebook'),
-    ('TikTok');
+    ('Youtube'),('Twitter'),('Instagram'),('Facebook'),('TikTok');
 
 INSERT INTO usuario_redes_sociais
     (usuario_id, rede_social_id)
